@@ -3,7 +3,16 @@
 ## Тестовое задание на вакансию: "Middle Python Backend Developer (Django)"
 
 ### Цель работы: создат рабучую тестовую систему покупки товаров в магазине.
-### В создании приложения использовать Django и Stripe API.
+### В создании приложения использовать `Django` и `Stripe API`.
+
+### Технологический стек
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
+[![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)](https://stripe.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/)
+[![JSON](https://img.shields.io/badge/json-323330?style=for-the-badge&logo=json-web-tokens&logoColor=blue)](https://www.json.org/)
 
 ### Техническое задание:
 
@@ -31,13 +40,3 @@
     5.7) Добавить поле Item.currency, создать 2 Stripe Keypair на две разные валюты и в зависимости от валюты выбранного товара предлагать оплату в соответствующей валюте
     5.8) Реализовать не Stripe Session, а Stripe Payment Intent.
 ```
-
-### Технологический стек
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
-[![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)](https://stripe.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/)
-[![JSON](https://img.shields.io/badge/json-323330?style=for-the-badge&logo=json-web-tokens&logoColor=blue)](https://www.json.org/)
-
