@@ -1,0 +1,16 @@
+{% load static %}
+
+<html>
+<head>
+    <title>{% block title %}Item is {{ id }}{% endblock %}</title>
+</head>
+<body>
+    <img src="{% static 'images/sitelogo.png' %}" alt="Logo">
+    {% for item in item_list %}
+    <p>{{ item.name }}</p>
+    <p>Descrip: {{ item.description }}</p>
+    <p>Price: {{ item.price }}</p>
+    {% endfor %}
+    {% block content %}{% endblock %}
+</body>
+</html>
