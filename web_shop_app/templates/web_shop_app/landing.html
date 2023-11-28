@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+{% load static %}
+
 <html>
 
 <head>
@@ -8,17 +11,19 @@
     <script src="https://js.stripe.com/v3/"></script>
 </head>
 
+{% block body %}
+
 <body>
     <section>
-        <div class="item">
+        <div class="product">
             <div class="description">
-                <h3>{{ item.name }}</h3>
+                <h3>{{ product.name }}</h3>
                 <hr />
-                {% for item in items %}
+                {% for price in prices %}
 
                 <div>
                     <h5>${{ price.get_display_price }}</h5>
-                    <form action="{% url 'create-checkout-session' item.id %}" method="POST">
+                    <form action="{% url 'create-checkout-session' price.id %}" method="POST">
                         {% csrf_token %}
                         <button type="submit">Checkout</button>
                     </form>
@@ -29,5 +34,7 @@
         </div>
     </section>
 </body>
+
+{% endblock %}
 
 </html>
