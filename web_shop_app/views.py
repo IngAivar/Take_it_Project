@@ -44,7 +44,7 @@ class ProductLandingPageView(TemplateView):
     template_name = "web_shop_app/landing.html"
 
     def get_context_data(self, **kwargs):
-        item = Item.objects.get(name="Test Item")
+        item = Item.objects.get(name="Test Item")  # <-- Здесь нужно вписать название своего товара вместо "Test Item"
         prices = Item.objects.filter(id=item.id)
         context = super(ProductLandingPageView,
                         self).get_context_data(**kwargs)
