@@ -1,13 +1,21 @@
+{% extends 'web_shop_app/create-checkout-session.html' %}
+
+{% load static %}
+
 <html>
 
 <head>
     <title>Checkout canceled</title>
 </head>
 
+{% block body %}
+
 <body>
     <section>
         <p>Forgot to add something to your cart? <a href="{% url 'landing' %}">Try again</a></p>
     </section>
 </body>
+
+{% endblock %}
 
 </html>
