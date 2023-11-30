@@ -11,7 +11,6 @@
 [![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)](https://stripe.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/)
-[![JSON](https://img.shields.io/badge/json-323330?style=for-the-badge&logo=json-web-tokens&logoColor=blue)](https://www.json.org/)
 
 ### Техническое задание:
 
